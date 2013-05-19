@@ -1,0 +1,29 @@
+﻿body {
+    font-family: Monaco;
+    font-size: 19px;
+    margin: 0px;
+    padding: 0px;
+}
+
+div.container.chat {
+    position: absolute;
+    background-color: #99CCFF;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 400px;
+}
+
+div.container.chat ul {
+    list-style: none;
+    font-size: .75em;
+}
+
+div.container.chat li span {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+div.container.chat #sidechatr-friends {
+    border: 1px solid red;
+}
